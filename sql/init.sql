@@ -1,0 +1,9 @@
+CREATE DATABASE `ddd_ts`;
+USE `ddd_ts`;
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+  id INT(11) NOT NULL, 
+  name VARCHAR(30) NOT NULL,
+  PRIMARY KEY (`id`)
+) DEFAULT CHARSET=utf8 COLLATE=utf8_bin;

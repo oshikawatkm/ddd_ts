@@ -1,0 +1,11 @@
+{
+  "development": {
+    "mysql": {
+      "host": "localhost",
+      "port": "3306",
+      "database": "ddd_ts",
+      "user": "root",
+      "password": "root"
+    }
+  }
+}
